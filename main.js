@@ -31,6 +31,7 @@ function renderTime() {
             ampm.innerText = "PM"
         }else if(hour == 00){
             hourOut.innerText = 12;
+            ampm.innerText = "AM"
         }
         else{
             hourOut.innerText = hour;
@@ -39,16 +40,13 @@ function renderTime() {
     }else{
         hourOut.innerText = hour;
         ampm.innerText = ""
-
     }
-
 
     if (second.toString().length === 2) {
         secOut.innerText = second;
 
     } else {
         secOut.innerText = "0" + second;
-
     }
 
     let date = time.getUTCDate();
