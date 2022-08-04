@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 240px;
+    height: 120px;
+    background-color: #484672;
+    border-radius:10px ;
+    box-shadow: 0px 0px 10px 10px rgba(127, 127, 127, 0.2);
+    padding: 6px;
+    color: white;
+}
+
+#timeSection{
+    font-size: 35px;
+    color: #3ecfd5;
+}
+
+#dateSection{
+    font-size: 25px;
+    color:#aaf0db;
+    /* text-align: center; */
+    margin-bottom: 10px;
+}
